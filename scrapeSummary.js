@@ -5,7 +5,6 @@ var chalk = require('chalk');
 
 const scrapeSummaries = (zipCode, pos, jobTitle) => {
     return new Promise((resolve, reject) => {
-            console.log(chalk.default.yellowBright(`https://www.indeed.com/jobs?q=${jobTitle}&l=${zipCode}&start=${pos}`))
             rp.get(`https://www.indeed.com/jobs?q=${jobTitle}&l=${zipCode}&start=${pos}`)
         .then((body) => {
             data = [];
@@ -21,7 +20,6 @@ const scrapeSummaries = (zipCode, pos, jobTitle) => {
                 console.log(chalk.red(job.companyName), chalk.default.green(job.salary));
                 data.push(job);
             });
-            console.log(data.length);
             resolve(data);
         }).catch(err => reject(err));
     });

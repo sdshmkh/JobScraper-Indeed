@@ -1,6 +1,6 @@
 {
-    "zipCode" : 11790,
-    "results" : 1, 
+    "zipCode" : 94107,
+    "results" : 10, 
     "jobtitle" : "Software Developer", 
     "terms" : [
         "java", 
@@ -45,6 +45,9 @@
         "git",
         "android",
         "swift",
-        "spring"
+        "spring", 
+        "bachelor's|b.s",
+        "masters",
+        "phd"
     ]
 }

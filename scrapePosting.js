@@ -17,7 +17,6 @@ const scrapePosting = (link) => {
                 expObj[term] = exp.test(val) ? 1 : 0;
                 posting = Object.assign(posting, expObj);
             });
-            console.log(chalk.default.red(link), chalk.default.grey(JSON.stringify(posting, null, 2)));
             resolve(posting);  
         }).catch(err => reject(err));
     });
