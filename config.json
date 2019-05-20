@@ -1,53 +1,188 @@
 {
-    "zipCode" : 94107,
-    "results" : 10, 
+    "zipCode" : 10004,
+    "results" : 15, 
     "jobtitle" : "Software Developer", 
     "terms" : [
-        "java", 
-        "sql", 
-        "python",
-        "c\\+\\+",
-        "c\\#", 
-        "html",
-        "css", 
-        "javascript|js",
-        "php",
-        "react",
-        "angular",
-        "ember",
-        "erlang",
-        "go",
-        "django",
-        "rails",
-        "hadoop",
-        "spark",
-        "postgresql",
-        "elastic",
-        "neo4j",
-        ".net",
-        "asp.net",
-        "vb.net",
-        "xml",
-        "json",
-        "unix",
-        "linux",
-        "jquery",
-        "ruby",
-        "mongodb",
-        "aws",
-        "j2ee",
-        "node.js",
-        "scala",
-        "kotlin",
-        "perl",
-        "redis",
-        "express",
-        "git",
-        "android",
-        "swift",
-        "spring", 
-        "bachelor's|b.s",
-        "masters",
-        "phd"
+       {
+           "term" : "Java",
+           "regex" : "java"
+       },
+       {
+        "term" : "SQL",
+        "regex" : "sql"
+    },
+    {
+        "term" : "Python",
+        "regex" : "python"
+    },
+    {
+        "term" : "C++",
+        "regex" : "c\\+\\+"
+    },
+    {
+        "term" : "C#",
+        "regex" : "c\\#"
+    },
+    {
+        "term" : "HTML",
+        "regex" : "html"
+    },
+    {
+        "term" : "CSS",
+        "regex" : "css"
+    },
+    {
+        "term" : "JavaScript",
+        "regex" : "javascript|js"
+    },{
+        "term" : "PHP",
+        "regex" : "php"
+    },{
+        "term" : "React.JS",
+        "regex" : "react"
+    },
+    {
+        "term" : "Angular.JS",
+        "regex" : "angular"
+    },
+    {
+        "term" : "Ember.JS",
+        "regex" : "ember"
+    },
+    {
+        "term" : "Erlang",
+        "regex" : "erlang"
+    },
+    {
+        "term" : "Go",
+        "regex" : "go"
+    },
+    {
+        "term" : "Django",
+        "regex" : "django"
+    },
+    {
+        "term" : "Rails",
+        "regex" : "rails"
+    },
+    {
+        "term" : "Hadoop",
+        "regex" : "hadoop"
+    },
+    {
+        "term" : "Spark",
+        "regex" : "spark"
+    },
+    {
+        "term" : "PostgreSQL",
+        "regex" : "postgresql"
+    },
+    {
+        "term" : "Elastic",
+        "regex" : "elastic"
+    },
+    {
+        "term" : "Neo4j",
+        "regex" : "neo4j"
+    },
+    {
+        "term" : ".NET",
+        "regex" : ".net"
+    },
+    {
+        "term" : "ASP.net",
+        "regex" : "asp.net"
+    },
+    {
+        "term" : "VB.net",
+        "regex" : "vb.net"
+    },
+    {
+        "term" : "XML",
+        "regex" : "xml"
+    },{
+        "term" : "JSON",
+        "regex" : "json"
+    },
+    {
+        "term" : "Unix",
+        "regex" : "unix"
+    },
+    {
+        "term" : "Linux",
+        "regex" : "linux"
+    },
+    {
+        "term" : "jQuery",
+        "regex" : "jquery"
+    },
+    {
+        "term" : "Ruby",
+        "regex" : "ruby"
+    },
+    {
+        "term" : "MongoDB",
+        "regex" : "mongodb"
+    },
+    {
+        "term" : "AWS",
+        "regex" : "aws"
+    },
+    {
+        "term" : "J2EE",
+        "regex" : "j2ee"
+    },
+    {
+        "term" : "Node.JS",
+        "regex" : "node.js"
+    },
+    {
+        "term" : "Scala",
+        "regex" : "scala"
+    },
+    {
+        "term" : "Kotlin",
+        "regex" : "kotlin"
+    },
+    {
+        "term" : "Perl",
+        "regex" : "perl"
+    },
+    {
+        "term" : "Redis",
+        "regex" : "redis"
+    },
+    {
+        "term" : "Express",
+        "regex" : "express"
+    },
+    {
+        "term" : "Spring",
+        "regex" : "spring"
+    },
+    {
+        "term" : "Git",
+        "regex" : "git"
+    },
+    {
+        "term" : "Android",
+        "regex" : "android"
+    },
+    {
+        "term" : "Swift",
+        "regex" : "swift"
+    },
+    {
+        "term" : "Bachelor's",
+        "regex" : "Bachelor's|B.S"
+    },
+    {
+        "term" : "Masters",
+        "regex" : "masters"
+    },
+    {
+        "term" : "PhD",
+        "regex" : "phd"
+    }
     ]
 }

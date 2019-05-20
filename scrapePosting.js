@@ -12,9 +12,9 @@ const scrapePosting = (link) => {
             let posting = {};
             let val = $('.jobsearch-JobComponent-description').text().toLowerCase().trim();
             config.terms.map(term => {
-                let exp = new RegExp(term, 'g');
+                let exp = new RegExp(term.regex, 'g');
                 let expObj = {};
-                expObj[term] = exp.test(val) ? 1 : 0;
+                expObj[term.term] = exp.test(val) ? 1 : 0;
                 posting = Object.assign(posting, expObj);
             });
             resolve(posting);  
