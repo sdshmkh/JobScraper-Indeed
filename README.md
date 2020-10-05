@@ -2,7 +2,7 @@
 Web scraper for scraping jobs from Indeed.com for Research 2k19 using Cheerio Js.
 
 ## Code
-`index.js` is th entry point fro the app which will begin scraping jobs. This is where the data is pulled from indeed.com and compiled into a CSV.
+`index.js` is the entry point fro the app which will begin scraping jobs. This is where the data is pulled from indeed.com and compiled into a CSV.
 
 ### `scrapePosting.js`
 This file contains the logic to pull data from the job posting card. This includes some preliminary information such the link to complete posting.
